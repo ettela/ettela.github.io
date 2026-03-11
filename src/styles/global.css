@@ -1,3 +1,5 @@
+@import url("https://fontsapi.zeoseven.com/281/main/result.css");
+
 @font-face {
     font-family: "OpenMoji";
     src: url("/fonts/openmoji_color.woff2") format("woff2");
@@ -7,31 +9,11 @@
     font-display: fallback;
 }
 
-@font-face {
-    font-family: "Maple Mono";
-    src: url("/fonts/maple_sym.woff2") format("woff2");
-    font-weight: normal;
-    font-style: normal;
-    font-display: fallback;
-}
 
-@font-face {
-    font-family: "Maple Mono";
-    src: url("/fonts/maple_sim.woff2") format("woff2");
+body {
+    font-family: "Xiaolai", 'OpenMoji';
     font-weight: normal;
-    font-style: normal;
-    font-display: fallback;
-}
-
-@font-face {
-    font-family: "Maple Mono";
-    src: url("/fonts/maple_han.woff2") format("woff2");
-    font-weight: normal;
-    font-style: normal;
-    font-display: fallback;
-}
-
-* {
-    font-family: 'Maple Mono', 'OpenMoji';
+    font-size: 16pt;
     color: rgb(247, 187, 36);
 }
+
